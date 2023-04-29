@@ -18,7 +18,35 @@ main{
 
 /*HEADER*/
 
+header{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(136, 192, 202);
 
+
+    nav{
+        width: inherit;
+        height: 50%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+
+        a{
+            text-decoration: none;
+            color: black;
+            font-size: 1.5rem;
+
+            &:hover{
+                color: white;
+            }
+        }
+
+        
+    }
+}
 
 
 
