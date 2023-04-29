@@ -3,7 +3,8 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
-    font-family: 'Satisfy', cursive, 'sans serif';
+    font-family: 'Montserrat', sans-serif;
+    
 }
 
 
@@ -14,6 +15,12 @@ body{
 
 main{
     background-color: green;
+}
+
+.separador{
+    width: 100%;
+    height: 50px;
+    background-color: transparent;
 }
 
 /*HEADER*/
@@ -38,6 +45,7 @@ header{
             text-decoration: none;
             color: black;
             font-size: 1.5rem;
+            font-family: 'Satisfy', cursive, 'sans serif';
 
             &:hover{
                 color: white;
@@ -50,8 +58,71 @@ header{
 
 
 
-/*GALERIA*/
+
+/*CONTENIDO PRINCIPAL*/
+
+main{
+
+    /*GALERIA*/
+
+    .div__galeria{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 75vw;
+        height: 350px;
+        background-color: pink;
+        padding: 15px 15px;
+
+        .row{
+            display: flex;
+            justify-content: space-around;
+
+            .lema{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 2rem;
+                rotate: -24deg;
+                font-weight: 600;
+                font-family: 'Satisfy', cursive, 'sans serif';
+
+            }
+
+            .galeria{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                font-size: 1.5rem;
+
+
+                a{
+                    align-items: center;
+                    text-decoration: none;
+                    border: 3px solid #ccc;
+                    border-radius: 10px;
+                    padding: 5px auto;
+                    width: 120px;
+                    text-align: center;
+                    color: black;
+                    background-color: chocolate;
+                }
+            }
+
+        }
+    }
+
 /*SERVICIOS*/
+
+.servicios{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
 /*SOBRE MI*/
 /*CONTACTO*/
+}
 /*FOOTER*/
