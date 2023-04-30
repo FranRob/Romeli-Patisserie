@@ -69,7 +69,7 @@ main{
         justify-content: space-around;
         align-items: center;
         width: 75vw;
-        height: 350px;
+        height: 65vh;
         background-color: pink;
 
         .row{
@@ -106,6 +106,7 @@ main{
                 p{
                     font-size: 1.2em;
                     max-height: 90%;
+                    max-width: 90%;
                 }
 
 
@@ -162,6 +163,8 @@ main{
         }
     }
     /*SOBRE MI*/
+
+    
     /*CONTACTO*/
 }
 /*FOOTER*/

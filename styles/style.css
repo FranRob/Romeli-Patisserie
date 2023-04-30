@@ -57,7 +57,7 @@ main .div__galeria {
   justify-content: space-around;
   align-items: center;
   width: 75vw;
-  height: 350px;
+  height: 65vh;
   background-color: pink;
 }
 main .div__galeria .row {
@@ -92,6 +92,7 @@ main .div__galeria .row .galeria {
 main .div__galeria .row .galeria p {
   font-size: 1.2em;
   max-height: 90%;
+  max-width: 90%;
 }
 main .div__galeria .row .galeria a {
   align-items: center;
