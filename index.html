@@ -35,10 +35,11 @@
     <header class="container-fluid">
     
       <nav class="nav__container">
-        <a href="#">Servicios</a>
-        <a href="#">Sobre Mi</a>
-        <img src="" alt="">
-        <a href="#">Contacto</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#about">Sobre Mi</a>
+        <img src="./img/Cartel.jpg" alt="logo" class="nav__logo">
+        <h1 class="nav__titulo">Romeli Patisserie</h1>
+        <a href="#contacto">Contacto</a>
         <a href="#">Cursos</a>
       </nav>
     </header>
@@ -67,16 +68,24 @@
 
       <div class="separador"></div>
 
-      <section class="container-fluid servicios">
+      <section class="container-fluid servicios" id="servicios">
 
         <div class="row titulo">
           <h2>Servicios</h2>
         </div>
 
         <div class="row items">
-          <div class="col-3 item">Tematicas</div>
-          <div class="col-3 item">Candy Bar</div>
-          <div class="col-3 item">Clasico</div>
+          <div class="col-3 item">Tematicas
+
+          </div>
+
+          <div class="col-3 item">Candy Bar
+
+          </div>
+
+          <div class="col-3 item">Clasico
+            
+          </div>
         </div>
       </section>
 
@@ -85,7 +94,7 @@
       <div class="separador"></div>
 
 
-      <section class="container about">
+      <section class="container about" id="about">
 
         <div class="row">
 
@@ -95,7 +104,14 @@
           </div>
 
           <div class="col-4 about__img">
-            <img src="" alt="">
+            <div class="card" style="width: 18rem;">
+              <img src="./img/modo sabio.jpg" class="card-img-top" alt="Meli-Robles">
+              <div class="card-body">
+                <h5 class="card-title">Meli Robles</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-outline-info">Red Social Personal</a>
+              </div>
+            </div>
           </div>
 
         </div>
@@ -104,16 +120,16 @@
 
       <div class="separador"></div>
 
-      <section class="container-fluid contacto">
+      <section class="container-fluid contacto" id="contacto">
         
-        <div class="row">
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio mollitia cumque, itaque omnis iusto placeat dignissimos exercitationem molestias modi eos maiores quia distinctio totam! Obcaecati doloribus reprehenderit labore saepe nisi.</p>
+        <div class="row contacto__advertencia">
+          <p>Puedes seguirnos o contactarnos en nuestras unicas redes sociales! Verifica realmente si soy yo!</p>
         </div>
 
-        <div class="row">
-          <div class="col-4">Instagram</div>
-          <div class="col-4">Facebook</div>
-          <div class="col-4">WhatsApp</div>
+        <div class="row contacto__Redes">
+          <div class="col-3">Instagram</div>
+          <div class="col-3">Facebook</div>
+          <div class="col-3">WhatsApp</div>
         </div>
       </section>
 
@@ -122,30 +138,29 @@
 
       <footer class="container-fluid">
 
-        <div class="row">
-
-          <div class="col-3">
+        <div class="row footer__links">
+          <div class="col-3 links__img">
             <img src="" alt="">
           </div>
 
-          <div class="col-3">
+          <div class="col-3 links__a">
             <a href="#">Privacidad</a>
             <a href="#">Politicas</a>
             <a href="#">Cookies</a>
           </div>
 
-          <div class="col-3">
+          <div class="col-3 links__a">
             <a href="#">Ir a galeria</a>
             <a href="#">Ir a cursos</a>
           </div>
 
-          <div class="col-3">
+          <div class="col-3 links__a">
             <a href="#">Ir al Inicio</a>
           </div>
         </div>
 
 
-        <div class="row">
+        <div class="row footer__copyright">
           <h6>CopyRight 2023 CriticalTech Devs</h6>
         </div>
 

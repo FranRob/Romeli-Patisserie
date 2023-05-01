@@ -5,6 +5,7 @@
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
+    scroll-behavior: smooth;
     
 }
 
@@ -12,6 +13,7 @@
 body{
     min-height: 100vh;
     width: 100%;
+
 }
 
 
@@ -49,6 +51,18 @@ header{
             &:hover{
                 color: white;
             }
+        }
+
+        .nav__logo{
+            width: 20%;
+            mix-blend-mode: darken;
+        }
+
+        .nav__titulo{
+            position: absolute;
+            font-size: 2rem;
+            text-align: center;
+            padding-left: 20px;
         }
 
         
@@ -163,8 +177,153 @@ main{
         }
     }
     /*SOBRE MI*/
+    .about{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 75vw;
+        height: 65vh;
+        background-color: pink;
 
+        .row{
+            display: flex;
+            max-width: 100%;
+            height: 100%;
+            align-items: center;
+            align-content: stretch;
+            overflow: hidden;
+
+            .about__text{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+                align-items: center;
+                height: 100%;
+                
+
+
+                h3{
+                    text-align: center;
+                    font-family: 'Satisfy', cursive, 'sans serif';
+                    font-size: 2.5rem;
+                }
+
+
+                p{
+                    font-weight: 600;
+                    max-width: 90%;
+                    text-align: center;
+                    padding: 5px;
+                    font-size: 1.1rem;
+                }
+                
+            }
+
+            .about__img{
+
+                .card{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    background-color: transparent;
+                    border: none;
+                    mix-blend-mode: darken;
+
+
+                    .card-img-top{
+                        width: 60%;
+                        text-align: center;
+                    }
+
+
+                    .card-body{
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: flex-start;
+                        align-items: center;
+
+                        .card-title{
+                            font-weight: 600;
+                        }
+                    }
+                }
+            }
+        }
+    }
     
     /*CONTACTO*/
+    .contacto{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: 40vh;
+        background-color: chocolate;
+
+
+        .contacto__advertencia{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            width: 100%;
+            height: 30%;
+            
+        }
+
+        .contacto__Redes{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            width: 100%;
+            height: 70%;
+        }
+    }
+
+
 }
+
 /*FOOTER*/
+footer{
+    width: 100%;
+    height: 30vh;
+    background-color: aquamarine;
+
+    .footer__links{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        height: 85%;
+
+
+        .links__a{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            border-left: 1px solid #ccc;
+
+            a{
+                text-decoration: none;
+                color: black;
+                &:hover{
+                    color: chocolate;
+                }
+            }
+        }
+
+    }
+
+    .footer__copyright{
+        text-align: center;
+        border-top: 1px solid black;
+    }
+
+
+
+
+}
