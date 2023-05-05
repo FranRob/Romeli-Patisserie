@@ -133,6 +133,8 @@ main .servicios .titulo {
 main .servicios .titulo h2 {
   margin-top: 5px;
   text-align: center;
+  font-family: "Satisfy", cursive, "sans serif";
+  font-size: 2.5rem;
 }
 main .servicios .items {
   display: flex;
